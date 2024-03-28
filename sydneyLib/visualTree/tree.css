@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    /* background: rgba(66, 66, 66, 0.815) */
+}
+::-webkit-scrollbar
+{
+    width: 2px;
+    height: 80%;
+}
+::-webkit-scrollbar-track
+{
+    background:transparent;
+}
+::-webkit-scrollbar-thumb
+{
+    background:transparent;
+    width: 2px;
+}
