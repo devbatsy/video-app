@@ -1,5 +1,5 @@
 import {virtualDom,getState} from './sydneyDom.js'
-ws = new WebSocket('ws://localhost:9090');
+ws = new WebSocket('wss://video-app-0cb7.onrender.com');
 connectionDetails = {candidate:[]}
 
 navigator.mediaDevices.getUserMedia({video:{
